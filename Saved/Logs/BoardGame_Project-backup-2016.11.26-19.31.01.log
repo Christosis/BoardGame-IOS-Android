@@ -1,0 +1,1042 @@
+﻿Log file open, 11/25/16 22:03:09
+LogInit:Display: Running engine for game: BoardGame_Project
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-280265080) SRandInit(-280265075).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.083113
+LogInit: Version: 4.12.5-3039270+++UE4+Release-4.12
+LogInit: API Version: 2992821
+LogInit: Net Version: 3039270
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 3
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 2
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 6
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 2
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jul  6 2016 09:09:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.12
+LogInit: Command line: 
+LogInit: Base directory: D:/General Stuff/Unreal Engine/4.12/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.11.25-11.03.09:304][  0]LogInit: Selected Device Profile: [Windows]
+[2016.11.25-11.03.09:304][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.11.25-11.03.09:312][  0]LogInit: Computer: MASTERCHRIS-PC
+[2016.11.25-11.03.09:312][  0]LogInit: User: MasterChris
+[2016.11.25-11.03.09:312][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.11.25-11.03.09:312][  0]LogInit: High frequency timer resolution =3.428085 MHz
+[2016.11.25-11.03.09:313][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2016.11.25-11.03.09:313][  0]LogMemory: Platform Memory Stats for Windows
+[2016.11.25-11.03.09:313][  0]LogMemory: Process Physical Memory: 191.16 MB used, 191.16 MB peak
+[2016.11.25-11.03.09:313][  0]LogMemory: Process Virtual Memory: 196.89 MB used, 196.89 MB peak
+[2016.11.25-11.03.09:313][  0]LogMemory: Physical Memory: 9833.58 MB used, 32711.16 MB total
+[2016.11.25-11.03.09:313][  0]LogMemory: Virtual Memory: 522.95 MB used, 8388608.00 MB total
+[2016.11.25-11.03.09:349][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.11.25-11.03.09:744][  0]LogD3D11RHI: D3D11 adapters:
+[2016.11.25-11.03.09:775][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 680' (Feature Level 11_0)
+[2016.11.25-11.03.09:775][  0]LogD3D11RHI:       1989/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2016.11.25-11.03.09:775][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.11.25-11.03.09:786][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.11.25-11.03.09:787][  0]LogD3D11RHI:     GPU DeviceId: 0x1180 (for the marketing name, search the web for "GPU Device Id")
+[2016.11.25-11.03.09:787][  0]LogWindows: EnumDisplayDevices:
+[2016.11.25-11.03.09:787][  0]LogWindows:    0. 'NVIDIA GeForce GTX 680' (P:0 D:1)
+[2016.11.25-11.03.09:787][  0]LogWindows:    1. 'NVIDIA GeForce GTX 680' (P:1 D:1)
+[2016.11.25-11.03.09:788][  0]LogWindows:    2. 'NVIDIA GeForce GTX 680' (P:0 D:0)
+[2016.11.25-11.03.09:788][  0]LogWindows:    3. 'NVIDIA GeForce GTX 680' (P:0 D:0)
+[2016.11.25-11.03.09:788][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2016.11.25-11.03.09:789][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2016.11.25-11.03.09:789][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2016.11.25-11.03.09:789][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2016.11.25-11.03.09:789][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 680
+[2016.11.25-11.03.09:789][  0]LogD3D11RHI:   Driver Version: 358.91 (internal:10.18.13.5891, unified:358.91)
+[2016.11.25-11.03.09:789][  0]LogD3D11RHI:      Driver Date: 11-5-2015
+[2016.11.25-11.03.09:789][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.11.25-11.03.09:796][  0]LogD3D11RHI: Async texture creation enabled
+[2016.11.25-11.03.09:816][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2016.11.25-11.03.09:816][  0]LogShaderCompilers: Guid format shader working directory is -17 characters bigger than the processId version (C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Intermediate/Shaders/WorkingDirectory/17632/).
+[2016.11.25-11.03.09:816][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/MASTER~1/AppData/Local/Temp/UnrealShaderWorkingDir/407D1F3F4AE51036119CDF8D30A32031/'.
+[2016.11.25-11.03.09:816][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.11.25-11.03.10:734][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.11.25-11.03.10:743][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.11.25-11.03.10:753][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.11.25-11.03.10:761][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.11.25-11.03.10:773][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.11.25-11.03.10:782][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.11.25-11.03.10:790][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.11.25-11.03.10:797][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.11.25-11.03.10:805][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.11.25-11.03.10:812][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.11.25-11.03.10:819][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.11.25-11.03.10:834][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.11.25-11.03.10:834][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.11.25-11.03.10:835][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.11.25-11.03.10:854][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.11.25-11.03.10:861][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.11.25-11.03.10:868][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.11.25-11.03.10:876][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.11.25-11.03.10:883][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.11.25-11.03.10:883][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.11.25-11.03.10:935][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.11.25-11.03.10:979][  0]LogDerivedDataCache: Loaded boot cache 0.04s 48MB C:/Users/Master Chris/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.11.25-11.03.10:979][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Master Chris/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
+[2016.11.25-11.03.10:979][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.11.25-11.03.10:979][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.11.25-11.03.10:979][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.11.25-11.03.10:979][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.11.25-11.03.10:997][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.11.25-11.03.11:009][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Master Chris/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.11.25-11.03.11:181][  0]LogInit: Selected Device Profile: [Windows]
+[2016.11.25-11.03.11:182][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.11.25-11.03.11:331][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.11.25-11.03.11:331][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.11.25-11.03.11:331][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.11.25-11.03.11:563][  0]LogAssetRegistry: FAssetRegistry took 0.0196 seconds to start up
+[2016.11.25-11.03.11:588][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.023078 seconds
+[2016.11.25-11.03.11:592][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
+[2016.11.25-11.03.11:592][  0]LogUObjectAllocator: 5855632 out of 0 bytes used by permanent object pool.
+[2016.11.25-11.03.11:592][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.11.25-11.03.11:597][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.11.25-11.03.11:744][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.11.25-11.03.11:744][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.11.25-11.03.12:325][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.11.25-11.03.12:593][  0]SourceControl: Info Source control is disabled
+[2016.11.25-11.03.12:594][  0]SourceControl: Info Source control is disabled
+[2016.11.25-11.03.12:599][  0]SourceControl: Info Source control is disabled
+[2016.11.25-11.03.12:604][  0]SourceControl: Info Source control is disabled
+[2016.11.25-11.03.12:749][  0]LogEngine: Initializing Engine...
+[2016.11.25-11.03.12:750][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.11.25-11.03.12:750][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.11.25-11.03.12:880][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.11.25-11.03.12:889][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.11.25-11.03.12:898][  0]LogInit: FAudioDevice initialized.
+[2016.11.25-11.03.12:926][  0]LogDerivedDataCache: Saved boot cache 0.03s 48MB C:/Users/Master Chris/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.11.25-11.03.12:932][  0]LogInit: Texture streaming: Enabled
+[2016.11.25-11.03.12:954][  0]LogInit: Transaction tracking system initialized
+[2016.11.25-11.03.12:970][  0]BlueprintLog: New page: Editor Load
+[2016.11.25-11.03.13:574][  0]LocalizationService: Info Localization service is disabled
+[2016.11.25-11.03.13:646][  0]LogConsoleResponse:Display: 
+[2016.11.25-11.03.13:792][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/' took 0.01s
+[2016.11.25-11.03.13:792][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.11.25-11.03.13:792][  0]LogCook:Display: Mobile HDR setting 1
+[2016.11.25-11.03.13:862][  0]SourceControl: Info Source control is disabled
+[2016.11.25-11.03.14:085][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 D:/General Stuff/Unreal Engine/4.12/FeaturePacks/MobileStarterContent.upack)
+[2016.11.25-11.03.14:517][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2016.11.25-11.03.14:543][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Architecture/Floor_400x400.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Architecture/Floor_400x400.uasset"
+[2016.11.25-11.03.14:577][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Architecture/Pillar_50x500.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Architecture/Pillar_50x500.uasset"
+[2016.11.25-11.03.14:592][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Architecture/Wall_400x200.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Architecture/Wall_400x200.uasset"
+[2016.11.25-11.03.14:612][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Architecture/Wall_400x300.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Architecture/Wall_400x300.uasset"
+[2016.11.25-11.03.14:639][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Architecture/Wall_400x400.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Architecture/Wall_400x400.uasset"
+[2016.11.25-11.03.14:678][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Architecture/Wall_500x500.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Architecture/Wall_500x500.uasset"
+[2016.11.25-11.03.14:711][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Architecture/Wall_Door_400x300.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Architecture/Wall_Door_400x300.uasset"
+[2016.11.25-11.03.14:737][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Architecture/Wall_Door_400x400.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Architecture/Wall_Door_400x400.uasset"
+[2016.11.25-11.03.14:769][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Architecture/Wall_Window_400x300.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Architecture/Wall_Window_400x300.uasset"
+[2016.11.25-11.03.14:816][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Architecture/Wall_Window_400x400.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Architecture/Wall_Window_400x400.uasset"
+[2016.11.25-11.03.14:881][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Collapse01.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Audio/Collapse01.uasset"
+[2016.11.25-11.03.14:902][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Collapse02.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Audio/Collapse02.uasset"
+[2016.11.25-11.03.14:918][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Collapse_Cue.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Audio/Collapse_Cue.uasset"
+[2016.11.25-11.03.14:998][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Explosion01.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Audio/Explosion01.uasset"
+[2016.11.25-11.03.15:015][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Explosion02.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Audio/Explosion02.uasset"
+[2016.11.25-11.03.15:033][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Explosion_Cue.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Audio/Explosion_Cue.uasset"
+[2016.11.25-11.03.15:086][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Fire01.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Audio/Fire01.uasset"
+[2016.11.25-11.03.15:106][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Fire01_Cue.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Audio/Fire01_Cue.uasset"
+[2016.11.25-11.03.15:225][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Fire_Sparks01.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Audio/Fire_Sparks01.uasset"
+[2016.11.25-11.03.15:238][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Fire_Sparks01_Cue.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2016.11.25-11.03.15:282][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Light01.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Audio/Light01.uasset"
+[2016.11.25-11.03.15:304][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Light01_Cue.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Audio/Light01_Cue.uasset"
+[2016.11.25-11.03.15:379][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Light02.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Audio/Light02.uasset"
+[2016.11.25-11.03.15:393][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Light02_Cue.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Audio/Light02_Cue.uasset"
+[2016.11.25-11.03.15:504][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Smoke01.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Audio/Smoke01.uasset"
+[2016.11.25-11.03.15:522][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Smoke01_Cue.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Audio/Smoke01_Cue.uasset"
+[2016.11.25-11.03.15:544][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Starter_Background_Cue.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Audio/Starter_Background_Cue.uasset"
+[2016.11.25-11.03.15:813][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Starter_Birds01.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Audio/Starter_Birds01.uasset"
+[2016.11.25-11.03.15:968][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Starter_Music01.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Audio/Starter_Music01.uasset"
+[2016.11.25-11.03.15:975][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Starter_Music_Cue.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Audio/Starter_Music_Cue.uasset"
+[2016.11.25-11.03.16:137][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Starter_Wind05.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Audio/Starter_Wind05.uasset"
+[2016.11.25-11.03.16:262][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Starter_Wind06.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Audio/Starter_Wind06.uasset"
+[2016.11.25-11.03.16:367][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Steam01.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Audio/Steam01.uasset"
+[2016.11.25-11.03.16:391][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Audio/Steam01_Cue.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Audio/Steam01_Cue.uasset"
+[2016.11.25-11.03.16:413][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2016.11.25-11.03.16:433][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2016.11.25-11.03.16:439][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2016.11.25-11.03.16:440][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2016.11.25-11.03.16:441][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2016.11.25-11.03.16:465][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Blueprints/Blueprint_WallSconce.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2016.11.25-11.03.16:490][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Maps/Minimal_Default.umap" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Maps/Minimal_Default.umap"
+[2016.11.25-11.03.17:427][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Maps/StarterMap.umap" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Maps/StarterMap.umap"
+[2016.11.25-11.03.17:474][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Basic_Floor.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Materials/M_Basic_Floor.uasset"
+[2016.11.25-11.03.17:516][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Basic_Wall.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Materials/M_Basic_Wall.uasset"
+[2016.11.25-11.03.17:574][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2016.11.25-11.03.17:643][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Brick_Clay_New.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Materials/M_Brick_Clay_New.uasset"
+[2016.11.25-11.03.17:650][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Brick_Clay_Old.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2016.11.25-11.03.17:653][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Brick_Cut_Stone.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2016.11.25-11.03.17:655][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2016.11.25-11.03.17:663][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2016.11.25-11.03.17:676][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_CobbleStone_Pebble.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2016.11.25-11.03.17:689][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_CobbleStone_Rough.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2016.11.25-11.03.17:707][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_CobbleStone_Smooth.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2016.11.25-11.03.17:718][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Concrete_Grime.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Materials/M_Concrete_Grime.uasset"
+[2016.11.25-11.03.17:744][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Concrete_Panels.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Materials/M_Concrete_Panels.uasset"
+[2016.11.25-11.03.17:793][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Concrete_Poured.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Materials/M_Concrete_Poured.uasset"
+[2016.11.25-11.03.17:833][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Concrete_Tiles.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Materials/M_Concrete_Tiles.uasset"
+[2016.11.25-11.03.17:883][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Glass.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Materials/M_Glass.uasset"
+[2016.11.25-11.03.17:912][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Ground_Grass.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Materials/M_Ground_Grass.uasset"
+[2016.11.25-11.03.17:942][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Ground_Gravel.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Materials/M_Ground_Gravel.uasset"
+[2016.11.25-11.03.18:030][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Ground_Moss.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Materials/M_Ground_Moss.uasset"
+[2016.11.25-11.03.18:087][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2016.11.25-11.03.18:118][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2016.11.25-11.03.18:184][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Metal_Chrome.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Materials/M_Metal_Chrome.uasset"
+[2016.11.25-11.03.18:223][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Metal_Copper.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Materials/M_Metal_Copper.uasset"
+[2016.11.25-11.03.18:246][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Metal_Gold.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Materials/M_Metal_Gold.uasset"
+[2016.11.25-11.03.18:289][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Metal_Rust.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Materials/M_Metal_Rust.uasset"
+[2016.11.25-11.03.18:345][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Metal_Steel.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Materials/M_Metal_Steel.uasset"
+[2016.11.25-11.03.18:372][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Rock_Basalt.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Materials/M_Rock_Basalt.uasset"
+[2016.11.25-11.03.18:409][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Rock_Marble_Polished.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2016.11.25-11.03.18:441][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Rock_Sandstone.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Materials/M_Rock_Sandstone.uasset"
+[2016.11.25-11.03.18:463][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Rock_Slate.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Materials/M_Rock_Slate.uasset"
+[2016.11.25-11.03.18:533][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Tech_Checker_Dot.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2016.11.25-11.03.18:571][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Tech_Hex_Tile.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2016.11.25-11.03.18:697][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2016.11.25-11.03.18:713][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Tech_Panel.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Materials/M_Tech_Panel.uasset"
+[2016.11.25-11.03.18:748][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Water_Lake.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Materials/M_Water_Lake.uasset"
+[2016.11.25-11.03.18:775][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Water_Ocean.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Materials/M_Water_Ocean.uasset"
+[2016.11.25-11.03.18:812][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2016.11.25-11.03.18:824][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2016.11.25-11.03.18:844][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Wood_Oak.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Materials/M_Wood_Oak.uasset"
+[2016.11.25-11.03.18:875][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Wood_Pine.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Materials/M_Wood_Pine.uasset"
+[2016.11.25-11.03.18:889][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Materials/M_Wood_Walnut.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Materials/M_Wood_Walnut.uasset"
+[2016.11.25-11.03.18:910][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/P_Ambient_Dust.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Particles/P_Ambient_Dust.uasset"
+[2016.11.25-11.03.18:932][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/P_Explosion.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Particles/P_Explosion.uasset"
+[2016.11.25-11.03.19:000][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/P_Fire.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Particles/P_Fire.uasset"
+[2016.11.25-11.03.19:036][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/P_Smoke.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Particles/P_Smoke.uasset"
+[2016.11.25-11.03.19:065][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/P_Sparks.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Particles/P_Sparks.uasset"
+[2016.11.25-11.03.19:067][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/Materials/M_Burst.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Particles/Materials/M_Burst.uasset"
+[2016.11.25-11.03.19:090][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/Materials/M_Dust_Particle.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2016.11.25-11.03.19:117][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/Materials/M_explosion_subUV.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2016.11.25-11.03.19:153][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2016.11.25-11.03.19:190][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/Materials/m_flare_01.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Particles/Materials/m_flare_01.uasset"
+[2016.11.25-11.03.19:210][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2016.11.25-11.03.19:220][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/Materials/M_radial_ramp.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2016.11.25-11.03.19:258][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/Materials/M_smoke_subUV.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2016.11.25-11.03.19:279][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Particles/Materials/M_Spark.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Particles/Materials/M_Spark.uasset"
+[2016.11.25-11.03.19:342][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/MaterialSphere.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Props/MaterialSphere.uasset"
+[2016.11.25-11.03.19:367][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_Bush.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Props/SM_Bush.uasset"
+[2016.11.25-11.03.19:427][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_Chair.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Props/SM_Chair.uasset"
+[2016.11.25-11.03.19:444][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_CornerFrame.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Props/SM_CornerFrame.uasset"
+[2016.11.25-11.03.19:474][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_Couch.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Props/SM_Couch.uasset"
+[2016.11.25-11.03.19:537][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_Door.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Props/SM_Door.uasset"
+[2016.11.25-11.03.19:558][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_DoorFrame.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Props/SM_DoorFrame.uasset"
+[2016.11.25-11.03.19:573][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_GlassWindow.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Props/SM_GlassWindow.uasset"
+[2016.11.25-11.03.19:590][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_Lamp_Ceiling.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2016.11.25-11.03.19:611][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_Lamp_Wall.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Props/SM_Lamp_Wall.uasset"
+[2016.11.25-11.03.19:661][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_MatPreviewMesh_02.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2016.11.25-11.03.19:678][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_PillarFrame.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Props/SM_PillarFrame.uasset"
+[2016.11.25-11.03.19:696][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_PillarFrame300.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Props/SM_PillarFrame300.uasset"
+[2016.11.25-11.03.19:717][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_Rock.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Props/SM_Rock.uasset"
+[2016.11.25-11.03.19:736][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_Shelf.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Props/SM_Shelf.uasset"
+[2016.11.25-11.03.19:771][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_Stairs.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Props/SM_Stairs.uasset"
+[2016.11.25-11.03.19:855][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_Statue.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Props/SM_Statue.uasset"
+[2016.11.25-11.03.19:960][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_TableRound.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Props/SM_TableRound.uasset"
+[2016.11.25-11.03.19:999][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/SM_WindowFrame.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Props/SM_WindowFrame.uasset"
+[2016.11.25-11.03.20:048][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/Materials/M_Bush.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Props/Materials/M_Bush.uasset"
+[2016.11.25-11.03.20:086][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/Materials/M_Chair.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Props/Materials/M_Chair.uasset"
+[2016.11.25-11.03.20:126][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/Materials/M_Door.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Props/Materials/M_Door.uasset"
+[2016.11.25-11.03.20:141][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/Materials/M_Frame.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Props/Materials/M_Frame.uasset"
+[2016.11.25-11.03.20:186][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/Materials/M_Lamp.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Props/Materials/M_Lamp.uasset"
+[2016.11.25-11.03.20:211][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/Materials/M_MaterialSphere.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2016.11.25-11.03.20:238][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2016.11.25-11.03.20:271][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/Materials/M_Rock.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Props/Materials/M_Rock.uasset"
+[2016.11.25-11.03.20:317][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/Materials/M_Shelf.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Props/Materials/M_Shelf.uasset"
+[2016.11.25-11.03.20:359][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/Materials/M_Statue.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Props/Materials/M_Statue.uasset"
+[2016.11.25-11.03.20:404][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/Materials/M_StatueGlass.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Props/Materials/M_StatueGlass.uasset"
+[2016.11.25-11.03.20:447][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Props/Materials/M_TableRound.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Props/Materials/M_TableRound.uasset"
+[2016.11.25-11.03.20:492][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Cone.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Shapes/Shape_Cone.uasset"
+[2016.11.25-11.03.20:517][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Cube.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Shapes/Shape_Cube.uasset"
+[2016.11.25-11.03.20:564][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Cylinder.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Shapes/Shape_Cylinder.uasset"
+[2016.11.25-11.03.20:639][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_NarrowCapsule.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2016.11.25-11.03.20:678][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Pipe.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Shapes/Shape_Pipe.uasset"
+[2016.11.25-11.03.20:740][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Pipe_180.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Shapes/Shape_Pipe_180.uasset"
+[2016.11.25-11.03.20:788][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Pipe_90.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Shapes/Shape_Pipe_90.uasset"
+[2016.11.25-11.03.20:809][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Plane.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Shapes/Shape_Plane.uasset"
+[2016.11.25-11.03.20:831][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_QuadPyramid.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2016.11.25-11.03.20:891][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Sphere.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Shapes/Shape_Sphere.uasset"
+[2016.11.25-11.03.20:974][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Torus.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Shapes/Shape_Torus.uasset"
+[2016.11.25-11.03.21:008][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Trim.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Shapes/Shape_Trim.uasset"
+[2016.11.25-11.03.21:062][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Trim_90_In.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2016.11.25-11.03.21:103][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Trim_90_Out.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2016.11.25-11.03.21:130][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_TriPyramid.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Shapes/Shape_TriPyramid.uasset"
+[2016.11.25-11.03.21:171][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Tube.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Shapes/Shape_Tube.uasset"
+[2016.11.25-11.03.21:190][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Wedge_A.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Shapes/Shape_Wedge_A.uasset"
+[2016.11.25-11.03.21:217][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_Wedge_B.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Shapes/Shape_Wedge_B.uasset"
+[2016.11.25-11.03.21:276][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Shapes/Shape_WideCapsule.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Shapes/Shape_WideCapsule.uasset"
+[2016.11.25-11.03.21:472][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2016.11.25-11.03.21:691][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2016.11.25-11.03.21:890][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2016.11.25-11.03.22:074][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Clay_New_D.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2016.11.25-11.03.22:319][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Clay_New_M.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2016.11.25-11.03.22:536][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Clay_New_N.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2016.11.25-11.03.22:882][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2016.11.25-11.03.23:081][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2016.11.25-11.03.23:500][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2016.11.25-11.03.23:718][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2016.11.25-11.03.23:916][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2016.11.25-11.03.24:156][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2016.11.25-11.03.24:193][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2016.11.25-11.03.24:233][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Burst_M.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Burst_M.uasset"
+[2016.11.25-11.03.24:257][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Bush_D.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Bush_D.uasset"
+[2016.11.25-11.03.24:316][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Bush_N.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Bush_N.uasset"
+[2016.11.25-11.03.24:361][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Ceramic_Tile_M.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2016.11.25-11.03.24:379][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Ceramic_Tile_N.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2016.11.25-11.03.24:444][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Chair_M.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Chair_M.uasset"
+[2016.11.25-11.03.24:618][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Chair_N.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Chair_N.uasset"
+[2016.11.25-11.03.24:644][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Checker_Noise_M.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Checker_Noise_M.uasset"
+[2016.11.25-11.03.24:709][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2016.11.25-11.03.24:750][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2016.11.25-11.03.24:788][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2016.11.25-11.03.24:844][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2016.11.25-11.03.24:910][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2016.11.25-11.03.24:922][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2016.11.25-11.03.25:067][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2016.11.25-11.03.25:111][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2016.11.25-11.03.25:160][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Concrete_Grime_D.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2016.11.25-11.03.25:404][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Concrete_Panels_D.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2016.11.25-11.03.25:581][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Concrete_Panels_N.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2016.11.25-11.03.25:859][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Concrete_Poured_D.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2016.11.25-11.03.26:027][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Concrete_Poured_N.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2016.11.25-11.03.26:119][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Concrete_Tiles_D.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2016.11.25-11.03.26:274][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Concrete_Tiles_M.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2016.11.25-11.03.26:283][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Concrete_Tiles_N.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2016.11.25-11.03.26:309][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2016.11.25-11.03.26:330][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Detail_Rocky_N.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2016.11.25-11.03.26:341][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Door_M.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Door_M.uasset"
+[2016.11.25-11.03.26:439][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Door_N.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Door_N.uasset"
+[2016.11.25-11.03.26:459][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Dust_Particle_D.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Dust_Particle_D.uasset"
+[2016.11.25-11.03.26:526][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Explosion_SubUV.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Explosion_SubUV.uasset"
+[2016.11.25-11.03.26:592][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Fire_SubUV.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Fire_SubUV.uasset"
+[2016.11.25-11.03.26:652][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Fire_Tiled_D.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2016.11.25-11.03.26:666][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Frame_M.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Frame_M.uasset"
+[2016.11.25-11.03.26:669][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Frame_N.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Frame_N.uasset"
+[2016.11.25-11.03.26:670][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Gradinet_01.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Gradinet_01.uasset"
+[2016.11.25-11.03.26:908][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Ground_Grass_D.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Ground_Grass_D.uasset"
+[2016.11.25-11.03.27:153][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Ground_Grass_N.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Ground_Grass_N.uasset"
+[2016.11.25-11.03.27:263][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Ground_Gravel_D.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2016.11.25-11.03.27:369][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Ground_Gravel_N.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2016.11.25-11.03.27:564][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_ground_Moss_D.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_ground_Moss_D.uasset"
+[2016.11.25-11.03.27:770][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Ground_Moss_N.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Ground_Moss_N.uasset"
+[2016.11.25-11.03.27:784][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Lamp_M.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Lamp_M.uasset"
+[2016.11.25-11.03.27:789][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Lamp_N.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Lamp_N.uasset"
+[2016.11.25-11.03.27:828][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_MacroVariation.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_MacroVariation.uasset"
+[2016.11.25-11.03.27:861][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Metal_Aluminum_D.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2016.11.25-11.03.28:009][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Metal_Copper_D.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Metal_Copper_D.uasset"
+[2016.11.25-11.03.28:125][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Metal_Gold_D.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Metal_Gold_D.uasset"
+[2016.11.25-11.03.28:156][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Metal_Gold_N.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Metal_Gold_N.uasset"
+[2016.11.25-11.03.28:441][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Metal_Rust_D.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Metal_Rust_D.uasset"
+[2016.11.25-11.03.28:454][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Metal_Rust_N.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Metal_Rust_N.uasset"
+[2016.11.25-11.03.28:588][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Metal_Steel_D.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Metal_Steel_D.uasset"
+[2016.11.25-11.03.28:746][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Metal_Steel_N.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Metal_Steel_N.uasset"
+[2016.11.25-11.03.28:892][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Perlin_Noise_M.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2016.11.25-11.03.29:011][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_RockMesh_M.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_RockMesh_M.uasset"
+[2016.11.25-11.03.29:224][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_RockMesh_N.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_RockMesh_N.uasset"
+[2016.11.25-11.03.29:456][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Rock_Basalt_D.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2016.11.25-11.03.29:722][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Rock_Basalt_N.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2016.11.25-11.03.29:823][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2016.11.25-11.03.30:081][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Rock_Sandstone_D.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2016.11.25-11.03.30:219][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Rock_Sandstone_N.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2016.11.25-11.03.30:349][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Rock_Slate_D.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Rock_Slate_D.uasset"
+[2016.11.25-11.03.30:641][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Rock_Slate_N.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Rock_Slate_N.uasset"
+[2016.11.25-11.03.30:943][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2016.11.25-11.03.30:979][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Shelf_M.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Shelf_M.uasset"
+[2016.11.25-11.03.31:039][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Shelf_N.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Shelf_N.uasset"
+[2016.11.25-11.03.31:059][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Single_Tile_N.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Single_Tile_N.uasset"
+[2016.11.25-11.03.31:177][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Smoke_SubUV.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Smoke_SubUV.uasset"
+[2016.11.25-11.03.31:195][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Smoke_Tiled_D.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2016.11.25-11.03.31:230][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Spark_Core.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Spark_Core.uasset"
+[2016.11.25-11.03.31:241][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Statue_M.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Statue_M.uasset"
+[2016.11.25-11.03.31:289][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Statue_N.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Statue_N.uasset"
+[2016.11.25-11.03.31:389][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_TableRound_M.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_TableRound_M.uasset"
+[2016.11.25-11.03.31:485][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_TableRound_N.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_TableRound_N.uasset"
+[2016.11.25-11.03.31:514][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Tech_Dot_M.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Tech_Dot_M.uasset"
+[2016.11.25-11.03.31:525][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Tech_Dot_N.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Tech_Dot_N.uasset"
+[2016.11.25-11.03.31:543][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2016.11.25-11.03.31:622][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2016.11.25-11.03.31:734][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Tech_Panel_M.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Tech_Panel_M.uasset"
+[2016.11.25-11.03.31:779][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Tech_Panel_N.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Tech_Panel_N.uasset"
+[2016.11.25-11.03.31:874][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Water_M.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Water_M.uasset"
+[2016.11.25-11.03.31:950][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Water_N.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Water_N.uasset"
+[2016.11.25-11.03.32:010][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2016.11.25-11.03.32:133][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2016.11.25-11.03.32:156][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2016.11.25-11.03.32:165][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Wood_Oak_D.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Wood_Oak_D.uasset"
+[2016.11.25-11.03.32:395][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Wood_Oak_N.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Wood_Oak_N.uasset"
+[2016.11.25-11.03.32:689][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Wood_Pine_D.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Wood_Pine_D.uasset"
+[2016.11.25-11.03.32:809][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Wood_Pine_N.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Wood_Pine_N.uasset"
+[2016.11.25-11.03.32:974][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Wood_Walnut_D.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2016.11.25-11.03.33:095][  0]LogPackFactory: Copied "../../../Samples/MobileStarterContent/Content/MobileStarterContent/Textures/T_Wood_Walnut_N.uasset" to "C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2016.11.25-11.03.33:527][  0]LogRenderer: Reallocating scene render targets to support 256x256 (Frame:2).
+[2016.11.25-11.03.34:568][  0]LogSavePackage: Save=71.93ms
+[2016.11.25-11.03.34:568][  0]LogSavePackage: Moving 'C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Saved/Floor_400x40074371C2A4F14E1E4E102A5B30315E170.tmp' to 'C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Architecture/Floor_400x400.uasset'
+[2016.11.25-11.03.34:572][  0]LogSavePackage:Display: Finished SavePackage C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Architecture/Floor_400x400.uasset
+[2016.11.25-11.03.34:572][  0]LogFeaturePack:Warning: Inserted 1 feature packs
+[2016.11.25-11.03.34:574][  0]Cmd: MAP LOAD FILE="C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/MobileStarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.11.25-11.03.34:574][  0]LightingResults: New page: Lighting Build
+[2016.11.25-11.03.34:576][  0]MapCheck: New page: Map Check
+[2016.11.25-11.03.34:576][  0]LightingResults: New page: Lighting Build
+[2016.11.25-11.03.34:787][  0]LogTexture:Display: Building textures: T_TableRound_M (DXT1)
+[2016.11.25-11.03.34:957][  0]LogTexture:Display: Building textures: T_TableRound_N (BC5)
+[2016.11.25-11.03.35:241][  0]LogTexture:Display: Building textures: T_Chair_N (BC5)
+[2016.11.25-11.03.35:324][  0]LogTexture:Display: Building textures: T_Chair_M (AutoDXT)
+[2016.11.25-11.03.35:587][  0]LogTexture:Display: Building textures: T_Statue_M (AutoDXT)
+[2016.11.25-11.03.35:735][  0]LogTexture:Display: Building textures: T_Statue_N (BC5)
+[2016.11.25-11.03.35:920][  0]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2016.11.25-11.03.35:975][  0]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2016.11.25-11.03.35:985][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2016.11.25-11.03.36:016][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2016.11.25-11.03.36:021][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8)
+[2016.11.25-11.03.36:027][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8)
+[2016.11.25-11.03.36:123][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.11.25-11.03.36:139][  0]LogTexture:Display: Building textures: S_AudioComponent_AutoActivate (BGRA8)
+[2016.11.25-11.03.36:146][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.11.25-11.03.36:166][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.11.25-11.03.36:197][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 31.242ms to complete.
+[2016.11.25-11.03.36:197][  0]LogFileHelpers: Loading map 'Minimal_Default' took 1.622
+[2016.11.25-11.03.37:923][  0]LogCollectionManager: Loaded 0 collections in 0.001246 seconds
+[2016.11.25-11.03.38:191][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Saved/Collections/' took 0.01s
+[2016.11.25-11.03.38:191][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/Developers/MasterChris/Collections/' took 0.01s
+[2016.11.25-11.03.38:191][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/Collections/' took 0.01s
+[2016.11.25-11.03.38:191][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2016.11.25-11.03.38:201][  0]LogContentBrowser: Native class hierarchy populated in 0.0081 seconds. Added 2047 classes and 369 folders.
+[2016.11.25-11.03.38:235][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.11.25-11.03.38:235][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.11.25-11.03.38:236][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0004 seconds. Added 12 classes and 0 folders.
+[2016.11.25-11.03.38:241][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.11.25-11.03.39:226][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.11.25-11.03.39:372][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2016.11.25-11.03.39:920][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.11.25-11.03.40:016][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.11.25-11.03.40:062][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.11.25-11.03.40:063][  0]LogLoad: Full Startup: 31.30 seconds (BP compile: 0.03 seconds)
+[2016.11.25-11.03.40:063][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2016.11.25-11.03.40:072][  0]LogOcInput: OculusInput pre-init called
+[2016.11.25-11.03.40:156][  0]LogContentStreaming: Texture pool size now 700 MB
+[2016.11.25-11.03.40:500][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:3).
+[2016.11.25-11.03.40:577][  2]LogAssetRegistry: Asset discovery search completed in 29.0336 seconds
+[2016.11.25-11.03.40:577][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.11.25-11.03.40:577][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000026 seconds (updated 0 objects)
+[2016.11.25-11.17.29:296][227]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 111 classes and 0 folders.
+[2016.11.25-11.17.30:180][227]LogTexture:Display: Building textures: TilePatine_N (BC5)
+[2016.11.25-11.17.30:226][227]LogTexture:Display: Building textures: TilePatine_D (AutoDXT)
+[2016.11.25-11.17.32:267][335]LogRenderer: Reallocating scene render targets to support 1208x900 (Frame:6083).
+[2016.11.25-11.18.11:006][249]BlueprintLog: New page: Compile Map
+[2016.11.25-11.18.11:271][249]BlueprintEditorCompileResults: Info [0902.49] Compile of Map successful! [in 251 ms] (/Game/Board_Game/Blueprints/Map.Map)
+[2016.11.25-11.18.15:133][640]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.11.25-11.18.16:063][742]Cmd: DELETE
+[2016.11.25-11.18.16:063][742]Cmd: ACTOR DELETE
+[2016.11.25-11.18.16:081][742]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.11.25-11.18.16:095][742]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2016.11.25-11.18.20:523][243]LogEditorViewport: Clicking on Actor (LMB): Map_C (Map)
+[2016.11.25-11.18.21:361][342]Cmd: DELETE
+[2016.11.25-11.18.21:361][342]Cmd: ACTOR DELETE
+[2016.11.25-11.18.21:361][342]LogEditorActor: Deleted Actor: Map_C
+[2016.11.25-11.18.21:376][342]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2016.11.25-11.18.41:903][516]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.11.25-11.18.41:927][516]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2016.11.25-11.18.42:901][613]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.11.25-11.18.42:925][613]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2016.11.25-11.18.43:568][675]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.11.25-11.18.43:588][675]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2016.11.25-11.18.44:141][726]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.11.25-11.18.44:155][726]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2016.11.25-11.18.44:674][773]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.11.25-11.18.44:699][773]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2016.11.25-11.19.06:018][960]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.11.25-11.19.06:044][960]LightingResults: New page: Lighting Build
+[2016.11.25-11.19.06:045][960]LoadErrors: New page: Loading map: Template_Default.umap
+[2016.11.25-11.19.06:049][960]MapCheck: New page: Map Check
+[2016.11.25-11.19.06:050][960]LightingResults: New page: Lighting Build
+[2016.11.25-11.19.06:090][960]LogAIModule: Creating AISystem for world Untitled_1
+[2016.11.25-11.19.06:096][960]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.11.25-11.19.06:103][960]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.11.25-11.19.06:136][960]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 32.542ms to complete.
+[2016.11.25-11.19.06:136][960]LogFileHelpers: Loading map 'Template_Default' took 0.119
+[2016.11.25-11.19.30:846][735]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.11.25-11.19.56:268][331]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.11.25-11.19.57:003][418]Cmd: DELETE
+[2016.11.25-11.19.57:003][418]Cmd: ACTOR DELETE
+[2016.11.25-11.19.57:003][418]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.11.25-11.19.57:017][418]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2016.11.25-11.19.58:056][543]LogEditorViewport: Clicking on Actor (LMB): Map_C (Map)
+[2016.11.25-11.20.10:603][867]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Board_Game/Blueprints/Map" FILE="C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/Board_Game/Blueprints/Map.uasset" SILENT=true
+[2016.11.25-11.20.10:618][867]LogSavePackage: Save=12.67ms
+[2016.11.25-11.20.10:618][867]LogSavePackage: Moving 'C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Saved/Map1BF2063849F6155F9D9CB896E094826A.tmp' to 'C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/Board_Game/Blueprints/Map.uasset'
+[2016.11.25-11.20.10:624][867]LogSavePackage:Display: Finished SavePackage C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/Board_Game/Blueprints/Map.uasset
+[2016.11.25-11.21.01:465][237]LogSavePackage: Save=35.94ms
+[2016.11.25-11.21.01:465][237]LogSavePackage: Moving 'C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Saved/BoardGameLevel41984AAA4089F87712A8A793B6A1B1CA.tmp' to 'C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/Board_Game/Level/BoardGameLevel.umap'
+[2016.11.25-11.21.01:469][237]LogSavePackage:Display: Finished SavePackage C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/Board_Game/Level/BoardGameLevel.umap
+[2016.11.25-11.21.01:484][237]LogFileHelpers: Saving map 'BoardGameLevel' took 0.543
+[2016.11.25-11.22.16:356][404]BlueprintLog: New page: Compile Map
+[2016.11.25-11.22.16:440][404]BlueprintEditorCompileResults: Info [1147.67] Compile of Map successful! [in 84 ms] (/Game/Board_Game/Blueprints/Map.Map)
+[2016.11.25-11.30.45:389][429]LogSavePackage: Save=18.27ms
+[2016.11.25-11.30.45:389][429]LogSavePackage: Moving 'C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Saved/BoardGameLevel_Auto14EBC4FA84B237CCE4FB3BF9EAFBD4D4D.tmp' to 'C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Saved/Autosaves/Game/Board_Game/Level/BoardGameLevel_Auto1.umap'
+[2016.11.25-11.30.45:391][429]LogSavePackage:Display: Finished SavePackage C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Saved/Autosaves/Game/Board_Game/Level/BoardGameLevel_Auto1.umap
+[2016.11.25-11.30.45:393][429]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Board_Game/Level/BoardGameLevel' took 0.044
+[2016.11.25-11.30.45:393][429]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.044
+[2016.11.25-11.31.01:967][479]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.11.25-11.31.01:967][479]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.11.25-11.54.16:027][594]BlueprintLog: New page: Compile Map
+[2016.11.25-11.54.16:198][594]BlueprintEditorCompileResults: Info [3067.40] Compile of Map successful! [in 170 ms] (/Game/Board_Game/Blueprints/Map.Map)
+[2016.11.25-11.54.25:832][456]BlueprintLog: New page: Compile Map
+[2016.11.25-11.54.26:035][456]BlueprintEditorCompileResults: Info [3077.23] Compile of Map successful! [in 202 ms] (/Game/Board_Game/Blueprints/Map.Map)
+[2016.11.25-11.54.35:000][265]LogEditorViewport: Clicking on Actor (LMB): Map_C (Map)
+[2016.11.25-11.54.47:256][352]LogEditorViewport: Clicking on Actor (LMB): Map_C (Map)
+[2016.11.25-11.55.05:340][767]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Board_Game/Blueprints/Map" FILE="C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/Board_Game/Blueprints/Map.uasset" SILENT=true
+[2016.11.25-11.55.05:362][767]LogSavePackage: Save=16.61ms
+[2016.11.25-11.55.05:362][767]LogSavePackage: Moving 'C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Saved/Map2FB2DDDB42179858F12C8CA1EBF0465D.tmp' to 'C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/Board_Game/Blueprints/Map.uasset'
+[2016.11.25-11.55.05:366][767]LogSavePackage:Display: Finished SavePackage C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/Board_Game/Blueprints/Map.uasset
+[2016.11.25-11.55.07:094][868]LogSavePackage: Save=56.54ms
+[2016.11.25-11.55.07:094][868]LogSavePackage: Moving 'C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Saved/BoardGameLevel37D6A48E4ED69EF487096AB716B3D01B.tmp' to 'C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/Board_Game/Level/BoardGameLevel.umap'
+[2016.11.25-11.55.07:099][868]LogSavePackage:Display: Finished SavePackage C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/Board_Game/Level/BoardGameLevel.umap
+[2016.11.25-11.58.55:208][990]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.11.25-11.59.01:209][  8]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.11.25-11.59.01:209][  8]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.11.25-12.04.42:735][597]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Board_Game/Blueprints/Map" FILE="C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/Board_Game/Blueprints/Map.uasset" SILENT=true
+[2016.11.25-12.04.42:758][597]LogSavePackage: Save=18.97ms
+[2016.11.25-12.04.42:758][597]LogSavePackage: Moving 'C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Saved/Map353D72FD475F32A6BEF00897F2F4BBB5.tmp' to 'C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/Board_Game/Blueprints/Map.uasset'
+[2016.11.25-12.04.42:763][597]LogSavePackage:Display: Finished SavePackage C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/Board_Game/Blueprints/Map.uasset
+[2016.11.25-12.05.01:312][574]LogMetaData: Removing '/Game/Board_Game/Blueprints/169Level.169Level:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Board_Game/Blueprints/Map.PackageMetaData'
+[2016.11.25-12.05.01:312][574]LogMetaData: Removing '/Game/Board_Game/Blueprints/169Level.SKEL_169Level_C' ref from Metadata '/Game/Board_Game/Blueprints/Map.PackageMetaData'
+[2016.11.25-12.05.01:312][574]LogMetaData: Removing '/Game/Board_Game/Blueprints/169Level.169Level_C' ref from Metadata '/Game/Board_Game/Blueprints/Map.PackageMetaData'
+[2016.11.25-12.05.01:312][574]LogMetaData: Removing '/Game/Board_Game/Blueprints/169Level.169Level:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Board_Game/Blueprints/Map.PackageMetaData'
+[2016.11.25-12.05.01:312][574]LogMetaData: Removing '/Game/Board_Game/Blueprints/169Level.169Level:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Board_Game/Blueprints/Map.PackageMetaData'
+[2016.11.25-12.05.01:312][574]LogMetaData: Removing '/Game/Board_Game/Blueprints/169Level.169Level:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Board_Game/Blueprints/Map.PackageMetaData'
+[2016.11.25-12.05.01:349][574]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Board_Game/Blueprints/169Level" FILE="C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/Board_Game/Blueprints/169Level.uasset" SILENT=true
+[2016.11.25-12.05.01:369][574]LogSavePackage: Save=18.65ms
+[2016.11.25-12.05.01:370][574]LogSavePackage: Moving 'C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Saved/169Level8A17447F45E5C5C3DF3F27BBEFE26B8B.tmp' to 'C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/Board_Game/Blueprints/169Level.uasset'
+[2016.11.25-12.05.01:375][574]LogSavePackage:Display: Finished SavePackage C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/Board_Game/Blueprints/169Level.uasset
+[2016.11.25-12.05.01:378][574]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Board_Game/Blueprints/Map" FILE="C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/Board_Game/Blueprints/Map.uasset" SILENT=true
+[2016.11.25-12.05.01:385][574]LogSavePackage: Save=4.52ms
+[2016.11.25-12.05.01:385][574]LogSavePackage: Moving 'C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Saved/Map76BAC6A1432596A8C215FEAC9FED1B84.tmp' to 'C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/Board_Game/Blueprints/Map.uasset'
+[2016.11.25-12.05.01:389][574]LogSavePackage:Display: Finished SavePackage C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/Board_Game/Blueprints/Map.uasset
+[2016.11.25-12.05.16:271][489]BlueprintLog: New page: Compile 169Level
+[2016.11.25-12.05.16:473][489]BlueprintEditorCompileResults: Info [3727.66] Compile of 169Level successful! [in 201 ms] (/Game/Board_Game/Blueprints/169Level.169Level)
+[2016.11.25-12.05.16:638][502]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Board_Game/Blueprints/169Level" FILE="C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/Board_Game/Blueprints/169Level.uasset" SILENT=true
+[2016.11.25-12.05.16:658][502]LogSavePackage: Save=16.72ms
+[2016.11.25-12.05.16:658][502]LogSavePackage: Moving 'C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Saved/169Level4CE5302A404944AC5666698B24933E91.tmp' to 'C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/Board_Game/Blueprints/169Level.uasset'
+[2016.11.25-12.05.16:660][502]LogSavePackage:Display: Finished SavePackage C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/Board_Game/Blueprints/169Level.uasset
+[2016.11.25-12.05.27:345][ 87]LogMetaData: Removing '/Game/Board_Game/Blueprints/169MapLevel.169MapLevel_C' ref from Metadata '/Game/Board_Game/Blueprints/169Level.PackageMetaData'
+[2016.11.25-12.05.27:345][ 87]LogMetaData: Removing '/Game/Board_Game/Blueprints/169MapLevel.SKEL_169MapLevel_C' ref from Metadata '/Game/Board_Game/Blueprints/169Level.PackageMetaData'
+[2016.11.25-12.05.27:345][ 87]LogMetaData: Removing '/Game/Board_Game/Blueprints/169MapLevel.169MapLevel:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Board_Game/Blueprints/169Level.PackageMetaData'
+[2016.11.25-12.05.27:345][ 87]LogMetaData: Removing '/Game/Board_Game/Blueprints/169MapLevel.169MapLevel:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Board_Game/Blueprints/169Level.PackageMetaData'
+[2016.11.25-12.05.27:345][ 87]LogMetaData: Removing '/Game/Board_Game/Blueprints/169MapLevel.169MapLevel:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Board_Game/Blueprints/169Level.PackageMetaData'
+[2016.11.25-12.05.27:345][ 87]LogMetaData: Removing '/Game/Board_Game/Blueprints/169MapLevel.169MapLevel:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Board_Game/Blueprints/169Level.PackageMetaData'
+[2016.11.25-12.05.27:382][ 87]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Board_Game/Blueprints/169MapLevel" FILE="C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/Board_Game/Blueprints/169MapLevel.uasset" SILENT=true
+[2016.11.25-12.05.27:402][ 87]LogSavePackage: Save=18.46ms
+[2016.11.25-12.05.27:402][ 87]LogSavePackage: Moving 'C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Saved/169MapLevel83543376463916F415CF50B053E3D7D5.tmp' to 'C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/Board_Game/Blueprints/169MapLevel.uasset'
+[2016.11.25-12.05.27:406][ 87]LogSavePackage:Display: Finished SavePackage C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/Board_Game/Blueprints/169MapLevel.uasset
+[2016.11.25-12.05.27:608][ 87]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Board_Game/Blueprints/Map" FILE="C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/Board_Game/Blueprints/Map.uasset" SILENT=true
+[2016.11.25-12.05.27:615][ 87]LogSavePackage: Save=4.55ms
+[2016.11.25-12.05.27:615][ 87]LogSavePackage: Moving 'C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Saved/Map41E5D58A4955B5EAB4E468AFF4536DEC.tmp' to 'C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/Board_Game/Blueprints/Map.uasset'
+[2016.11.25-12.05.27:617][ 87]LogSavePackage:Display: Finished SavePackage C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/Board_Game/Blueprints/Map.uasset
+[2016.11.25-12.06.06:043][314]BlueprintLog: New page: Compile Maps
+[2016.11.25-12.06.06:176][314]BlueprintEditorCompileResults: Info [3777.36] Compile of Maps successful! [in 132 ms] (/Game/Board_Game/Blueprints/Maps.Maps)
+[2016.11.25-12.06.06:524][339]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Board_Game/Blueprints/Maps" FILE="C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/Board_Game/Blueprints/Maps.uasset" SILENT=true
+[2016.11.25-12.06.06:537][339]LogSavePackage: Save=11.09ms
+[2016.11.25-12.06.06:537][339]LogSavePackage: Moving 'C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Saved/Maps7ED8AFBB47E1D71F89D3DB9591192A8B.tmp' to 'C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/Board_Game/Blueprints/Maps.uasset'
+[2016.11.25-12.06.06:543][339]LogSavePackage:Display: Finished SavePackage C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/Board_Game/Blueprints/Maps.uasset
+[2016.11.25-12.06.28:108][664]LogTexture:Display: Building textures: T_Brick_Clay_Beveled_M (AutoDXT)
+[2016.11.25-12.06.28:697][664]LogTexture:Display: Building textures: T_Brick_Clay_Beveled_N (BC5)
+[2016.11.25-12.06.28:822][664]LogTexture:Display: Building textures: T_Brick_Clay_Beveled_D (AutoDXT)
+[2016.11.25-12.06.32:051][879]BlueprintLog: New page: Compile Maps
+[2016.11.25-12.06.32:154][879]BlueprintEditorCompileResults: Info [3803.34] Compile of Maps successful! [in 102 ms] (/Game/Board_Game/Blueprints/Maps.Maps)
+[2016.11.25-12.07.20:598][831]Cmd: EDIT COPY
+[2016.11.25-12.07.21:000][866]Cmd: EDIT PASTE
+[2016.11.25-12.07.52:452][156]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.11.25-12.07.58:927][606]LogEditorViewport: Clicking on Actor (LMB): Maps_C (Maps2)
+[2016.11.25-12.08.00:070][691]Cmd: EDIT COPY
+[2016.11.25-12.08.00:347][710]Cmd: EDIT PASTE
+[2016.11.25-12.08.19:257][ 48]LogEditorViewport: Clicking on Actor (LMB): Maps_C (Maps3)
+[2016.11.25-12.08.22:066][245]Cmd: EDIT PASTE
+[2016.11.25-12.08.58:242][919]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.11.25-12.08.59:639][ 11]Cmd: EDIT PASTE
+[2016.11.25-12.09.09:264][657]Cmd: EDIT PASTE
+[2016.11.25-12.09.22:613][450]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.11.25-12.09.23:149][482]Cmd: EDIT PASTE
+[2016.11.25-12.09.28:293][781]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.11.25-12.09.28:791][810]Cmd: EDIT PASTE
+[2016.11.25-12.09.33:633][ 96]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.11.25-12.09.35:260][187]Cmd: EDIT PASTE
+[2016.11.25-12.09.58:413][448]LogEditorViewport: Clicking on Actor (LMB): Maps_C (Maps9)
+[2016.11.25-12.10.03:296][695]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.11.25-12.10.04:054][731]LogEditorViewport: Clicking on Actor (LMB): Maps_C (Maps9)
+[2016.11.25-12.10.05:309][794]Cmd: EDIT COPY
+[2016.11.25-12.10.06:359][848]Cmd: EDIT PASTE
+[2016.11.25-12.10.14:898][306]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.11.25-12.10.15:274][321]LogEditorViewport: Clicking on Actor (LMB): Maps_C (Maps10)
+[2016.11.25-12.10.16:890][403]Cmd: EDIT COPY
+[2016.11.25-12.10.17:122][415]Cmd: EDIT PASTE
+[2016.11.25-12.10.21:266][616]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.11.25-12.10.22:458][674]Cmd: EDIT PASTE
+[2016.11.25-12.10.26:411][864]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.11.25-12.10.26:848][883]LogEditorViewport: Clicking on Actor (LMB): Maps_C (Maps12)
+[2016.11.25-12.10.27:761][927]Cmd: EDIT PASTE
+[2016.11.25-12.10.32:061][124]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.11.25-12.10.37:700][398]LogEditorViewport: Clicking on Actor (LMB): Maps_C (Maps13)
+[2016.11.25-12.10.41:755][587]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.11.25-12.10.42:556][622]LogEditorViewport: Clicking on Actor (LMB): Maps_C (Maps13)
+[2016.11.25-12.10.57:178][333]Cmd: EDIT COPY
+[2016.11.25-12.11.15:802][218]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.11.25-12.11.17:768][312]LogEditorViewport: Clicking on Actor (LMB): Maps_C (Maps13)
+[2016.11.25-12.11.29:806][886]Cmd: EDIT COPY
+[2016.11.25-12.11.30:351][913]Cmd: EDIT PASTE
+[2016.11.25-12.11.38:451][276]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.11.25-12.11.39:474][323]Cmd: EDIT PASTE
+[2016.11.25-12.11.43:713][511]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.11.25-12.11.44:719][556]Cmd: EDIT PASTE
+[2016.11.25-12.11.49:255][755]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.11.25-12.11.49:545][767]Cmd: EDIT PASTE
+[2016.11.25-12.11.55:605][ 24]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.11.25-12.11.56:165][ 47]Cmd: EDIT PASTE
+[2016.11.25-12.12.00:343][219]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.11.25-12.12.00:691][232]Cmd: EDIT PASTE
+[2016.11.25-12.12.04:863][398]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.11.25-12.12.05:188][410]Cmd: EDIT PASTE
+[2016.11.25-12.12.10:900][632]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.11.25-12.12.11:267][645]Cmd: EDIT PASTE
+[2016.11.25-12.12.17:151][869]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.11.25-12.12.17:513][882]Cmd: EDIT PASTE
+[2016.11.25-12.12.21:225][ 18]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.11.25-12.12.21:896][ 42]Cmd: EDIT PASTE
+[2016.11.25-12.12.26:340][202]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.11.25-12.12.26:723][215]Cmd: EDIT PASTE
+[2016.11.25-12.12.30:670][355]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.11.25-12.12.30:953][364]Cmd: EDIT PASTE
+[2016.11.25-12.12.35:615][529]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.11.25-12.12.54:241][337]LogEditorActor: Deleted Actor: 169MapLevel_C
+[2016.11.25-12.12.54:275][337]LogEditorActor: Deleted 1 Actors (0.035 secs)
+[2016.11.25-12.13.03:531][851]LogEditorViewport: Clicking on Actor (LMB): Maps_C (Maps66)
+[2016.11.25-12.13.04:471][897]LogEditorViewport: Clicking on Actor (LMB): Maps_C (Maps53)
+[2016.11.25-12.13.05:183][931]LogEditorViewport: Clicking on Actor (LMB): Maps_C (Maps40)
+[2016.11.25-12.13.05:857][964]LogEditorViewport: Clicking on Actor (LMB): Maps_C (Maps27)
+[2016.11.25-12.13.06:422][991]LogEditorViewport: Clicking on Actor (LMB): Maps_C (Maps14)
+[2016.11.25-12.13.07:462][ 41]LogEditorViewport: Clicking on Actor (LMB): Maps_C (Maps)
+[2016.11.25-12.13.13:913][389]LogEditorViewport: Clicking on Actor (LMB): Maps_C (Maps15)
+[2016.11.25-12.14.32:353][207]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.11.25-12.14.48:187][110]LogEditorViewport: Clicking on Actor (LMB): Maps_C (Maps)
+[2016.11.25-12.15.21:241][715]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.11.25-12.15.26:271][949]LogEditorViewport: Clicking on Actor (LMB): Maps_C (Maps20)
+[2016.11.25-12.15.28:662][ 69]LogEditorViewport: Clicking on Actor (CTRL LMB): Maps_C (Maps33)
+[2016.11.25-12.15.29:328][ 99]LogEditorViewport: Clicking on Actor (CTRL LMB): Maps_C (Maps46)
+[2016.11.25-12.15.29:821][122]LogEditorViewport: Clicking on Actor (CTRL LMB): Maps_C (Maps59)
+[2016.11.25-12.15.30:385][148]LogEditorViewport: Clicking on Actor (CTRL LMB): Maps_C (Maps72)
+[2016.11.25-12.15.31:304][192]LogEditorViewport: Clicking on Actor (CTRL LMB): Maps_C (Maps85)
+[2016.11.25-12.15.31:865][218]LogEditorViewport: Clicking on Actor (CTRL LMB): Maps_C (Maps98)
+[2016.11.25-12.15.32:234][234]LogEditorViewport: Clicking on Actor (CTRL LMB): Maps_C (Maps111)
+[2016.11.25-12.15.32:596][250]LogEditorViewport: Clicking on Actor (CTRL LMB): Maps_C (Maps124)
+[2016.11.25-12.15.32:903][264]LogEditorViewport: Clicking on Actor (CTRL LMB): Maps_C (Maps137)
+[2016.11.25-12.15.33:247][278]LogEditorViewport: Clicking on Actor (CTRL LMB): Maps_C (Maps150)
+[2016.11.25-12.15.34:173][322]LogEditorViewport: Clicking on Actor (CTRL LMB): Maps_C (Maps80)
+[2016.11.25-12.15.34:514][338]LogEditorViewport: Clicking on Actor (CTRL LMB): Maps_C (Maps81)
+[2016.11.25-12.15.34:938][357]LogEditorViewport: Clicking on Actor (CTRL LMB): Maps_C (Maps82)
+[2016.11.25-12.15.35:306][373]LogEditorViewport: Clicking on Actor (CTRL LMB): Maps_C (Maps83)
+[2016.11.25-12.15.35:667][389]LogEditorViewport: Clicking on Actor (CTRL LMB): Maps_C (Maps84)
+[2016.11.25-12.15.36:428][425]LogEditorViewport: Clicking on Actor (CTRL LMB): Maps_C (Maps86)
+[2016.11.25-12.15.36:812][442]LogEditorViewport: Clicking on Actor (CTRL LMB): Maps_C (Maps87)
+[2016.11.25-12.15.37:209][460]LogEditorViewport: Clicking on Actor (CTRL LMB): Maps_C (Maps88)
+[2016.11.25-12.15.37:580][477]LogEditorViewport: Clicking on Actor (CTRL LMB): Maps_C (Maps89)
+[2016.11.25-12.15.38:046][498]LogEditorViewport: Clicking on Actor (CTRL LMB): Maps_C (Maps90)
+[2016.11.25-12.15.41:492][662]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.11.25-12.16.18:266][347]LogSavePackage: Save=124.97ms
+[2016.11.25-12.16.18:266][347]LogSavePackage: Moving 'C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Saved/BoardGameLevel_Auto2877E4D194D2CC77B5571B09B04A3555A.tmp' to 'C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Saved/Autosaves/Game/Board_Game/Level/BoardGameLevel_Auto2.umap'
+[2016.11.25-12.16.18:269][347]LogSavePackage:Display: Finished SavePackage C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Saved/Autosaves/Game/Board_Game/Level/BoardGameLevel_Auto2.umap
+[2016.11.25-12.16.18:272][347]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Board_Game/Level/BoardGameLevel' took 0.153
+[2016.11.25-12.16.18:272][347]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.153
+[2016.11.25-12.16.18:276][347]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Board_Game/Blueprints/Maps] ([1] browsable assets)...
+[2016.11.25-12.16.18:276][347]OBJ SavePackage: Finished generating thumbnails for package [/Game/Board_Game/Blueprints/Maps]
+[2016.11.25-12.16.18:292][347]LogSavePackage: Save=11.29ms
+[2016.11.25-12.16.18:292][347]LogSavePackage: Moving 'C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Saved/Maps_Auto2336C126C413A53AFE2CAD2954AA8DD9E.tmp' to 'C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Saved/Autosaves/Game/Board_Game/Blueprints/Maps_Auto2.uasset'
+[2016.11.25-12.16.18:295][347]LogSavePackage:Display: Finished SavePackage C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Saved/Autosaves/Game/Board_Game/Blueprints/Maps_Auto2.uasset
+[2016.11.25-12.16.18:295][347]LogFileHelpers: Auto-saving content packages took 0.021
+[2016.11.25-12.16.55:802][619]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Board_Game/Blueprints/Maps" FILE="C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/Board_Game/Blueprints/Maps.uasset" SILENT=true
+[2016.11.25-12.16.55:816][619]LogSavePackage: Save=10.95ms
+[2016.11.25-12.16.55:816][619]LogSavePackage: Moving 'C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Saved/Maps823A9A9C4AC1695C8DD2C09F0D6FDFF4.tmp' to 'C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/Board_Game/Blueprints/Maps.uasset'
+[2016.11.25-12.16.55:821][619]LogSavePackage:Display: Finished SavePackage C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/Board_Game/Blueprints/Maps.uasset
+[2016.11.25-12.16.57:351][702]LogSavePackage: Save=117.61ms
+[2016.11.25-12.16.57:351][702]LogSavePackage: Moving 'C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Saved/BoardGameLevelD919A1F149B44E30FB30DEAF71A42E3F.tmp' to 'C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/Board_Game/Level/BoardGameLevel.umap'
+[2016.11.25-12.16.57:356][702]LogSavePackage:Display: Finished SavePackage C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/Board_Game/Level/BoardGameLevel.umap
+[2016.11.25-12.17.01:190][779]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_169MapLevel_C_0' or package '/Engine/Transient'.
+[2016.11.25-12.17.01:190][779]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_169MapLevel_C_1' or package '/Engine/Transient'.
+[2016.11.25-12.17.01:190][779]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_169Level_C_46' or package '/Engine/Transient'.
+[2016.11.25-12.17.01:191][779]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_169MapLevel_C_72' or package '/Engine/Transient'.
+[2016.11.25-12.17.01:191][779]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_169MapLevel_C_71' or package '/Engine/Transient'.
+[2016.11.25-12.17.08:456][151]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.11.25-12.26.57:619][ 84]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Board_Game/Level/BoardGameLevel' took 0.015
+[2016.11.25-12.26.57:622][ 84]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Board_Game/Blueprints/Map] ([3] browsable assets)...
+[2016.11.25-12.26.57:623][ 84]OBJ SavePackage: Finished generating thumbnails for package [/Game/Board_Game/Blueprints/Map]
+[2016.11.25-12.26.57:629][ 84]LogSavePackage: Save=1.25ms
+[2016.11.25-12.26.57:629][ 84]LogSavePackage: Moving 'C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Saved/Map_Auto3857A9C68471C1BCE1F34FDBE71DCE45A.tmp' to 'C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Saved/Autosaves/Game/Board_Game/Blueprints/Map_Auto3.uasset'
+[2016.11.25-12.26.57:632][ 84]LogSavePackage:Display: Finished SavePackage C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Saved/Autosaves/Game/Board_Game/Blueprints/Map_Auto3.uasset
+[2016.11.25-12.26.57:632][ 84]LogFileHelpers: Auto-saving content packages took 0.011
+[2016.11.25-13.42.06:411][708]LogSavePackage: Save=120.13ms
+[2016.11.25-13.42.06:411][708]LogSavePackage: Moving 'C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Saved/BoardGameLevel47BB156E4C46EBC47E793FAD5A7048F9.tmp' to 'C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/Board_Game/Level/BoardGameLevel.umap'
+[2016.11.25-13.42.06:415][708]LogSavePackage:Display: Finished SavePackage C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/Board_Game/Level/BoardGameLevel.umap
+[2016.11.25-13.42.08:004][827]LogEditorViewport: Clicking on Actor (LMB): Maps_C (Maps)
+[2016.11.25-13.42.29:363][ 38]LogTexture:Display: Building textures: T_Burst_M (AutoDXT)
+[2016.11.25-13.42.35:498][367]LogTexture:Display: Building textures: T_Brick_Clay_Old_D (AutoDXT)
+[2016.11.25-13.42.36:086][367]LogTexture:Display: Building textures: T_Brick_Clay_Old_N (BC5)
+[2016.11.25-13.43.10:565][407]BlueprintLog: New page: Compile Maps
+[2016.11.25-13.43.10:789][407]BlueprintEditorCompileResults: Info [9601.89] Compile of Maps successful! [in 224 ms] (/Game/Board_Game/Blueprints/Maps.Maps)
+[2016.11.25-13.43.11:133][436]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Board_Game/Blueprints/Maps" FILE="C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/Board_Game/Blueprints/Maps.uasset" SILENT=true
+[2016.11.25-13.43.11:148][436]LogSavePackage: Save=10.67ms
+[2016.11.25-13.43.11:148][436]LogSavePackage: Moving 'C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Saved/MapsFFF6323B43BACADCFBEF449AF1A2E691.tmp' to 'C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/Board_Game/Blueprints/Maps.uasset'
+[2016.11.25-13.43.11:153][436]LogSavePackage:Display: Finished SavePackage C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/Board_Game/Blueprints/Maps.uasset
+[2016.11.25-13.43.12:977][564]LogSavePackage: Save=120.00ms
+[2016.11.25-13.43.12:977][564]LogSavePackage: Moving 'C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Saved/BoardGameLevel24986DF342F46D9D7D5322AC16F6BD50.tmp' to 'C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/Board_Game/Level/BoardGameLevel.umap'
+[2016.11.25-13.43.12:982][564]LogSavePackage:Display: Finished SavePackage C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/Board_Game/Level/BoardGameLevel.umap
+[2016.11.25-13.43.39:086][642]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.25-13.43.39:087][642]PIE: New page: PIE session: BoardGameLevel (Nov 26, 2016, 10:43:39 AM)
+[2016.11.25-13.43.39:087][642]LogPlayLevel: Creating play world package: /Game/Board_Game/Level/UEDPIE_0_BoardGameLevel
+[2016.11.25-13.43.39:107][642]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019682s)
+[2016.11.25-13.43.39:107][642]LogAIModule: Creating AISystem for world BoardGameLevel
+[2016.11.25-13.43.39:108][642]LogPlayLevel: PIE: World Init took: (0.000816s)
+[2016.11.25-13.43.39:108][642]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Board_Game/Level/BoardGameLevel.BoardGameLevel to /Game/Board_Game/Level/UEDPIE_0_BoardGameLevel.BoardGameLevel (0.020773s)
+[2016.11.25-13.43.39:131][642]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.11.25-13.43.39:138][642]LogInit: FAudioDevice initialized.
+[2016.11.25-13.43.39:231][642]LogWorld: Game class is 'GameMode'
+[2016.11.25-13.43.39:300][642]LogWorld: Bringing World /Game/Board_Game/Level/UEDPIE_0_BoardGameLevel.BoardGameLevel up for play (max tick rate 0) at 2016.11.26-00.43.39
+[2016.11.25-13.43.39:301][642]LogWorld: Bringing up level for play took: 0.015452
+[2016.11.25-13.43.39:326][642]LogTexture:Display: Building textures: VirtualJoystick_Thumb (BGRA8)
+[2016.11.25-13.43.39:327][642]LogTexture:Display: Building textures: VirtualJoystick_Background (BGRA8)
+[2016.11.25-13.43.39:348][642]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2016.11.25-13.43.39:363][642]PIE: Info Play in editor start time for /Game/Board_Game/Level/UEDPIE_0_BoardGameLevel -0.535
+[2016.11.25-13.44.34:541][538]LogEditorViewport: Clicking on Actor (context menu): Maps_C (Maps)
+[2016.11.25-13.53.26:223][619]LogSavePackage: Save=140.00ms
+[2016.11.25-13.53.26:223][619]LogSavePackage: Moving 'C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Saved/BoardGameLevel_Auto4C154A3AE43A23D826885E39E7D6B8239.tmp' to 'C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Saved/Autosaves/Game/Board_Game/Level/BoardGameLevel_Auto4.umap'
+[2016.11.25-13.53.26:227][619]LogSavePackage:Display: Finished SavePackage C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Saved/Autosaves/Game/Board_Game/Level/BoardGameLevel_Auto4.umap
+[2016.11.25-13.53.26:229][619]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Board_Game/Level/BoardGameLevel' took 0.168
+[2016.11.25-13.53.26:229][619]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.168
+[2016.11.25-14.22.53:058][627]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.11.25-14.22.53:589][666]LogEditorViewport: Clicking on Actor (LMB): Maps_C (Maps)
+[2016.11.25-14.22.53:918][689]LogEditorViewport: Clicking on Actor (LMB): Maps_C (Maps14)
+[2016.11.25-14.22.54:376][723]LogEditorViewport: Clicking on Actor (LMB): Maps_C (Maps27)
+[2016.11.25-14.22.54:758][752]LogEditorViewport: Clicking on Actor (LMB): Maps_C (Maps40)
+[2016.11.25-14.22.55:154][781]LogEditorViewport: Clicking on Actor (LMB): Maps_C (Maps53)
+[2016.11.25-14.22.55:572][812]LogEditorViewport: Clicking on Actor (LMB): Maps_C (Maps66)
+[2016.11.25-14.22.55:947][841]LogEditorViewport: Clicking on Actor (LMB): Maps_C (Maps79)
+[2016.11.25-14.22.56:311][868]LogEditorViewport: Clicking on Actor (LMB): Maps_C (Maps92)
+[2016.11.25-14.22.56:634][892]LogEditorViewport: Clicking on Actor (LMB): Maps_C (Maps105)
+[2016.11.25-14.22.56:964][917]LogEditorViewport: Clicking on Actor (LMB): Maps_C (Maps118)
+[2016.11.25-14.22.57:294][942]LogEditorViewport: Clicking on Actor (LMB): Maps_C (Maps131)
+[2016.11.25-14.22.57:605][965]LogEditorViewport: Clicking on Actor (LMB): Maps_C (Maps144)
+[2016.11.25-14.22.57:908][985]LogEditorViewport: Clicking on Actor (LMB): Maps_C (Maps157)
+[2016.11.25-14.22.58:519][ 33]LogEditorViewport: Clicking on Actor (LMB): Maps_C (Maps158)
+[2016.11.25-14.22.59:165][ 83]LogEditorViewport: Clicking on Actor (LMB): Maps_C (Maps145)
+[2016.11.25-14.22.59:498][107]LogEditorViewport: Clicking on Actor (LMB): Maps_C (Maps119)
+[2016.11.25-14.23.00:120][154]LogEditorViewport: Clicking on Actor (LMB): Maps_C (Maps132)
+[2016.11.25-14.23.00:504][181]LogEditorViewport: Clicking on Actor (LMB): Maps_C (Maps106)
+[2016.11.25-14.23.00:893][209]LogEditorViewport: Clicking on Actor (LMB): Maps_C (Maps93)
+[2016.11.25-14.23.01:235][233]LogEditorViewport: Clicking on Actor (LMB): Maps_C (Maps67)
+[2016.11.25-14.23.01:897][284]LogEditorViewport: Clicking on Actor (LMB): Maps_C (Maps93)
+[2016.11.25-14.23.02:318][315]LogEditorViewport: Clicking on Actor (LMB): Maps_C (Maps41)
+[2016.11.25-14.23.02:660][340]LogEditorViewport: Clicking on Actor (LMB): Maps_C (Maps67)
+[2016.11.25-14.23.02:961][362]LogEditorViewport: Clicking on Actor (LMB): Maps_C (Maps41)
+[2016.11.25-14.23.03:366][393]LogEditorViewport: Clicking on Actor (LMB): Maps_C (Maps15)
+[2016.11.25-14.23.03:833][429]LogEditorViewport: Clicking on Actor (LMB): Maps_C (Maps67)
+[2016.11.25-14.23.04:147][450]LogEditorViewport: Clicking on Actor (LMB): Maps_C (Maps2)
+[2016.11.25-14.23.04:701][491]LogEditorViewport: Clicking on Actor (LMB): Maps_C (Maps55)
+[2016.11.25-14.23.20:103][709]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.11.25-14.23.20:673][751]LogEditorViewport: Clicking on Actor (LMB): Maps_C (Maps)
+[2016.11.25-14.23.21:199][790]LogEditorViewport: Clicking on Actor (context menu): Maps_C (Maps)
+[2016.11.25-14.23.36:340][638]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.25-14.23.36:341][638]PIE: New page: PIE session: BoardGameLevel (Nov 26, 2016, 11:23:36 AM)
+[2016.11.25-14.23.36:341][638]LogPlayLevel: Creating play world package: /Game/Board_Game/Level/UEDPIE_0_BoardGameLevel
+[2016.11.25-14.23.36:365][638]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024196s)
+[2016.11.25-14.23.36:366][638]LogAIModule: Creating AISystem for world BoardGameLevel
+[2016.11.25-14.23.36:366][638]LogPlayLevel: PIE: World Init took: (0.000839s)
+[2016.11.25-14.23.36:366][638]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Board_Game/Level/BoardGameLevel.BoardGameLevel to /Game/Board_Game/Level/UEDPIE_0_BoardGameLevel.BoardGameLevel (0.025301s)
+[2016.11.25-14.23.36:389][638]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.11.25-14.23.36:395][638]LogInit: FAudioDevice initialized.
+[2016.11.25-14.23.36:450][638]LogWorld: Game class is 'GameMode'
+[2016.11.25-14.23.36:466][638]LogWorld: Bringing World /Game/Board_Game/Level/UEDPIE_0_BoardGameLevel.BoardGameLevel up for play (max tick rate 0) at 2016.11.26-01.23.36
+[2016.11.25-14.23.36:467][638]LogWorld: Bringing up level for play took: 0.016682
+[2016.11.25-14.23.36:469][638]PIE: Info Play in editor start time for /Game/Board_Game/Level/UEDPIE_0_BoardGameLevel 0.537
+[2016.11.25-14.23.44:446][550]Cmd: SELECT NONE
+[2016.11.25-14.24.01:214][795]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_Maps_C_3' or package '/Engine/Transient'.
+[2016.11.25-14.24.01:214][795]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_Maps_C_78' or package '/Engine/Transient'.
+[2016.11.25-14.24.01:214][795]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_Maps_C_2' or package '/Engine/Transient'.
+[2016.11.25-14.24.01:214][795]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_Maps_C_77' or package '/Engine/Transient'.
+[2016.11.25-14.24.04:086][ 56]LogSavePackage: Save=17.47ms
+[2016.11.25-14.24.04:086][ 56]LogSavePackage: Moving 'C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Saved/BoardGameLevelC9A75D0A4C6F32C5CE335AA6C29DAD14.tmp' to 'C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/Board_Game/Level/BoardGameLevel.umap'
+[2016.11.25-14.24.04:092][ 56]LogSavePackage:Display: Finished SavePackage C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/Board_Game/Level/BoardGameLevel.umap
+[2016.11.25-14.24.21:137][442]LogText:Warning: Failed to parse argument "GameModeName" as a number (using "0" as a fallback). Please check your format string for errors: "GameMode: {GameModeName}".
+[2016.11.25-14.24.22:311][500]LogText:Warning: Failed to parse argument "RootClass" as a number (using "0" as a fallback). Please check your format string for errors: "Select {RootClass} Class".
+[2016.11.25-14.24.22:311][500]LogText:Warning: Failed to parse argument "GameStateName" as a number (using "0" as a fallback). Please check your format string for errors: "GameState: {GameStateName}".
+[2016.11.25-14.24.22:311][500]LogText:Warning: Failed to parse argument "PawnName" as a number (using "0" as a fallback). Please check your format string for errors: "Pawn: {PawnName}".
+[2016.11.25-14.24.22:311][500]LogText:Warning: Failed to parse argument "HUDName" as a number (using "0" as a fallback). Please check your format string for errors: "HUD: {HUDName}".
+[2016.11.25-14.24.22:311][500]LogText:Warning: Failed to parse argument "PlayerControllerName" as a number (using "0" as a fallback). Please check your format string for errors: "PlayerController: {PlayerControllerName}".
+[2016.11.25-14.24.47:449][325]MapCheck: New page: Map Check
+[2016.11.25-14.24.47:480][325]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2016.11.25-14.24.47:480][325]MapCheck: New page: BoardGameLevel - Nov 26, 2016, 11:24:47 AM
+[2016.11.25-14.24.47:521][325]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 41.114ms to complete.
+[2016.11.25-14.24.47:542][325]LogEditorBuildUtils: Build time 0:00
+[2016.11.25-14.34.04:607][208]LogSavePackage: Save=18.70ms
+[2016.11.25-14.34.04:607][208]LogSavePackage: Moving 'C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Saved/BoardGameLevel_Auto54E06CE8A4761B39941C8A18BE5BE9474.tmp' to 'C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Saved/Autosaves/Game/Board_Game/Level/BoardGameLevel_Auto5.umap'
+[2016.11.25-14.34.04:610][208]LogSavePackage:Display: Finished SavePackage C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Saved/Autosaves/Game/Board_Game/Level/BoardGameLevel_Auto5.umap
+[2016.11.25-14.34.04:612][208]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Board_Game/Level/BoardGameLevel' took 0.044
+[2016.11.25-14.34.04:612][208]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.044
+[2016.11.25-15.10.07:799][758]LogSavePackage: Save=18.05ms
+[2016.11.25-15.10.07:799][758]LogSavePackage: Moving 'C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Saved/BoardGameLevel3FD41E7D4579C696CF10E28D8027946C.tmp' to 'C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/Board_Game/Level/BoardGameLevel.umap'
+[2016.11.25-15.10.07:805][758]LogSavePackage:Display: Finished SavePackage C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/Board_Game/Level/BoardGameLevel.umap
+[2016.11.25-15.10.12:095][963]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Board_Game/Blueprints/Map" FILE="C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/Board_Game/Blueprints/Map.uasset" SILENT=true
+[2016.11.25-15.10.12:101][963]LogSavePackage: Save=1.48ms
+[2016.11.25-15.10.12:101][963]LogSavePackage: Moving 'C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Saved/MapB9CC87A249F80892B53A208A7C4D3F84.tmp' to 'C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/Board_Game/Blueprints/Map.uasset'
+[2016.11.25-15.10.12:106][963]LogSavePackage:Display: Finished SavePackage C:/Users/Master Chris/Documents/Unreal Projects/BoardGame_Project/Content/Board_Game/Blueprints/Map.uasset
+[2016.11.25-15.10.12:375][964]Cmd: QUIT_EDITOR
+[2016.11.25-15.10.12:432][964]LogExit: Preparing to exit.
+[2016.11.25-15.10.13:237][964]LogExit: Editor shut down
+[2016.11.25-15.10.13:237][964]LogExit: Transaction tracking system shut down
+[2016.11.25-15.10.13:375][964]LogObj: Freed 0b from 0 cluster array pools.
+[2016.11.25-15.10.13:375][964]LogExit: Object subsystem successfully closed.
+[2016.11.25-15.10.13:389][964]LogD3D11RHI: Shutdown
+[2016.11.25-15.10.13:389][964]LogD3D11RHI: CleanupD3DDevice
+[2016.11.25-15.10.13:436][964]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.11.25-15.10.13:445][964]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (217)
+[2016.11.25-15.10.13:445][964]LogModuleManager: Shutting down and abandoning module NewLevelDialog (216)
+[2016.11.25-15.10.13:446][964]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (215)
+[2016.11.25-15.10.13:446][964]LogModuleManager: Shutting down and abandoning module BlueprintGraph (214)
+[2016.11.25-15.10.13:446][964]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (213)
+[2016.11.25-15.10.13:446][964]LogModuleManager: Shutting down and abandoning module CrashTracker (212)
+[2016.11.25-15.10.13:446][964]LogModuleManager: Shutting down and abandoning module SceneOutliner (211)
+[2016.11.25-15.10.13:446][964]LogModuleManager: Shutting down and abandoning module WidgetCarousel (210)
+[2016.11.25-15.10.13:446][964]LogModuleManager: Shutting down and abandoning module AddContentDialog (209)
+[2016.11.25-15.10.13:446][964]LogModuleManager: Shutting down and abandoning module GameplayTags (208)
+[2016.11.25-15.10.13:446][964]LogModuleManager: Shutting down and abandoning module EditorWidgets (207)
+[2016.11.25-15.10.13:446][964]LogModuleManager: Shutting down and abandoning module CollectionManager (206)
+[2016.11.25-15.10.13:446][964]LogModuleManager: Shutting down and abandoning module StatsViewer (205)
+[2016.11.25-15.10.13:446][964]LogModuleManager: Shutting down and abandoning module FoliageEdit (204)
+[2016.11.25-15.10.13:446][964]LogModuleManager: Shutting down and abandoning module LandscapeEditor (203)
+[2016.11.25-15.10.13:447][964]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (202)
+[2016.11.25-15.10.13:447][964]LogModuleManager: Shutting down and abandoning module ActorPickerMode (201)
+[2016.11.25-15.10.13:447][964]LogModuleManager: Shutting down and abandoning module GeometryMode (200)
+[2016.11.25-15.10.13:447][964]LogModuleManager: Shutting down and abandoning module TextureAlignMode (199)
+[2016.11.25-15.10.13:447][964]LogModuleManager: Shutting down and abandoning module BspMode (198)
+[2016.11.25-15.10.13:447][964]LogModuleManager: Shutting down and abandoning module HardwareSurvey (197)
+[2016.11.25-15.10.13:447][964]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (196)
+[2016.11.25-15.10.13:447][964]LogModuleManager: Shutting down and abandoning module SequenceRecorder (195)
+[2016.11.25-15.10.13:447][964]LogModuleManager: Shutting down and abandoning module AutomationWorker (194)
+[2016.11.25-15.10.13:447][964]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (193)
+[2016.11.25-15.10.13:447][964]LogModuleManager: Shutting down and abandoning module PlacementMode (192)
+[2016.11.25-15.10.13:447][964]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (191)
+[2016.11.25-15.10.13:447][964]LogModuleManager: Shutting down and abandoning module CharacterAI (190)
+[2016.11.25-15.10.13:447][964]LogModuleManager: Shutting down and abandoning module SmartSnapping (189)
+[2016.11.25-15.10.13:447][964]LogModuleManager: Shutting down and abandoning module SessionServices (188)
+[2016.11.25-15.10.13:447][964]LogModuleManager: Shutting down and abandoning module ViewportSnapping (187)
+[2016.11.25-15.10.13:447][964]LogModuleManager: Shutting down and abandoning module LogVisualizer (186)
+[2016.11.25-15.10.13:447][964]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (185)
+[2016.11.25-15.10.13:447][964]LogModuleManager: Shutting down and abandoning module IntroTutorials (184)
+[2016.11.25-15.10.13:447][964]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (183)
+[2016.11.25-15.10.13:447][964]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (182)
+[2016.11.25-15.10.13:447][964]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (181)
+[2016.11.25-15.10.13:447][964]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (180)
+[2016.11.25-15.10.13:484][964]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (179)
+[2016.11.25-15.10.13:484][964]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (178)
+[2016.11.25-15.10.13:484][964]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (177)
+[2016.11.25-15.10.13:484][964]LogModuleManager: Shutting down and abandoning module MergeActors (176)
+[2016.11.25-15.10.13:484][964]LogModuleManager: Shutting down and abandoning module SizeMap (175)
+[2016.11.25-15.10.13:484][964]LogModuleManager: Shutting down and abandoning module TreeMap (174)
+[2016.11.25-15.10.13:484][964]LogModuleManager: Shutting down and abandoning module ReferenceViewer (173)
+[2016.11.25-15.10.13:484][964]LogModuleManager: Shutting down and abandoning module LocalizationService (172)
+[2016.11.25-15.10.13:484][964]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (171)
+[2016.11.25-15.10.13:484][964]LogModuleManager: Shutting down and abandoning module HardwareTargeting (170)
+[2016.11.25-15.10.13:484][964]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (169)
+[2016.11.25-15.10.13:484][964]LogModuleManager: Shutting down and abandoning module UndoHistory (168)
+[2016.11.25-15.10.13:484][964]LogModuleManager: Shutting down and abandoning module UserFeedback (167)
+[2016.11.25-15.10.13:484][964]LogModuleManager: Shutting down and abandoning module XmlParser (166)
+[2016.11.25-15.10.13:484][964]LogModuleManager: Shutting down and abandoning module Blutility (165)
+[2016.11.25-15.10.13:484][964]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (164)
+[2016.11.25-15.10.13:484][964]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (163)
+[2016.11.25-15.10.13:484][964]LogModuleManager: Shutting down and abandoning module InputBindingEditor (162)
+[2016.11.25-15.10.13:485][964]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (161)
+[2016.11.25-15.10.13:485][964]LogModuleManager: Shutting down and abandoning module SettingsEditor (160)
+[2016.11.25-15.10.13:485][964]LogModuleManager: Shutting down and abandoning module ProjectLauncher (159)
+[2016.11.25-15.10.13:485][964]LogModuleManager: Shutting down and abandoning module SessionFrontend (158)
+[2016.11.25-15.10.13:485][964]LogModuleManager: Shutting down and abandoning module ProfilerClient (157)
+[2016.11.25-15.10.13:485][964]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (156)
+[2016.11.25-15.10.13:485][964]LogModuleManager: Shutting down and abandoning module DeviceManager (155)
+[2016.11.25-15.10.13:525][964]LogModuleManager: Shutting down and abandoning module AutomationController (154)
+[2016.11.25-15.10.13:525][964]LogModuleManager: Shutting down and abandoning module AutomationWindow (153)
+[2016.11.25-15.10.13:525][964]LogModuleManager: Shutting down and abandoning module Layers (152)
+[2016.11.25-15.10.13:525][964]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (151)
+[2016.11.25-15.10.13:525][964]LogModuleManager: Shutting down and abandoning module DetailCustomizations (150)
+[2016.11.25-15.10.13:525][964]LogModuleManager: Shutting down and abandoning module PackagesDialog (149)
+[2016.11.25-15.10.13:525][964]LogModuleManager: Shutting down and abandoning module Persona (148)
+[2016.11.25-15.10.13:525][964]LogModuleManager: Shutting down and abandoning module Kismet (147)
+[2016.11.25-15.10.13:525][964]LogModuleManager: Shutting down and abandoning module GraphEditor (146)
+[2016.11.25-15.10.13:525][964]LogModuleManager: Shutting down and abandoning module ClassViewer (145)
+[2016.11.25-15.10.13:526][964]LogModuleManager: Shutting down and abandoning module Toolbox (144)
+[2016.11.25-15.10.13:526][964]LogModuleManager: Shutting down and abandoning module ModuleUI (143)
+[2016.11.25-15.10.13:526][964]LogModuleManager: Shutting down and abandoning module MovieSceneTools (142)
+[2016.11.25-15.10.13:526][964]LogModuleManager: Shutting down and abandoning module OutputLog (141)
+[2016.11.25-15.10.13:526][964]LogModuleManager: Shutting down and abandoning module GammaUI (140)
+[2016.11.25-15.10.13:526][964]LogModuleManager: Shutting down and abandoning module Documentation (139)
+[2016.11.25-15.10.13:526][964]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (138)
+[2016.11.25-15.10.13:526][964]LogModuleManager: Shutting down and abandoning module AnalyticsET (137)
+[2016.11.25-15.10.13:526][964]LogModuleManager: Shutting down and abandoning module Analytics (136)
+[2016.11.25-15.10.13:526][964]LogModuleManager: Shutting down and abandoning module PortalServices (135)
+[2016.11.25-15.10.13:526][964]LogModuleManager: Shutting down and abandoning module PortalRpc (134)
+[2016.11.25-15.10.13:526][964]LogModuleManager: Shutting down and abandoning module MessagingRpc (133)
+[2016.11.25-15.10.13:526][964]LogModuleManager: Shutting down and abandoning module GameplayDebugger (132)
+[2016.11.25-15.10.13:526][964]LogModuleManager: Shutting down and abandoning module AITestSuite (131)
+[2016.11.25-15.10.13:526][964]LogModuleManager: Shutting down and abandoning module AIModule (130)
+[2016.11.25-15.10.13:526][964]LogModuleManager: Shutting down and abandoning module ProfilerService (129)
+[2016.11.25-15.10.13:705][964]LogModuleManager: Shutting down and abandoning module TaskGraph (128)
+[2016.11.25-15.10.13:705][964]LogModuleManager: Shutting down and abandoning module SlateRemote (127)
+[2016.11.25-15.10.13:705][964]LogModuleManager: Shutting down and abandoning module SteamVRController (126)
+[2016.11.25-15.10.13:705][964]LogModuleManager: Shutting down and abandoning module SteamVR (125)
+[2016.11.25-15.10.13:705][964]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (124)
+[2016.11.25-15.10.13:705][964]LogModuleManager: Shutting down and abandoning module OculusLibrary (123)
+[2016.11.25-15.10.13:705][964]LogModuleManager: Shutting down and abandoning module OculusInput (122)
+[2016.11.25-15.10.13:705][964]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (121)
+[2016.11.25-15.10.13:705][964]LogModuleManager: Shutting down and abandoning module CableComponent (120)
+[2016.11.25-15.10.13:705][964]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (119)
+[2016.11.25-15.10.13:705][964]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (118)
+[2016.11.25-15.10.13:705][964]LogModuleManager: Shutting down and abandoning module HTML5Networking (117)
+[2016.11.25-15.10.13:705][964]LogModuleManager: Shutting down and abandoning module SuperSearch (116)
+[2016.11.25-15.10.13:705][964]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (115)
+[2016.11.25-15.10.13:705][964]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (114)
+[2016.11.25-15.10.13:705][964]LogModuleManager: Shutting down and abandoning module PluginBrowser (113)
+[2016.11.25-15.10.13:705][964]LogModuleManager: Shutting down and abandoning module EpicSurvey (112)
+[2016.11.25-15.10.13:705][964]LogModuleManager: Shutting down and abandoning module DesktopPlatform (111)
+[2016.11.25-15.10.13:705][964]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (110)
+[2016.11.25-15.10.13:705][964]LogModuleManager: Shutting down and abandoning module UObjectPlugin (109)
+[2016.11.25-15.10.13:705][964]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (108)
+[2016.11.25-15.10.13:705][964]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (107)
+[2016.11.25-15.10.13:706][964]LogModuleManager: Shutting down and abandoning module SourceControl (106)
+[2016.11.25-15.10.13:706][964]LogModuleManager: Shutting down and abandoning module GitSourceControl (105)
+[2016.11.25-15.10.13:706][964]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (104)
+[2016.11.25-15.10.13:706][964]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (103)
+[2016.11.25-15.10.13:706][964]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (102)
+[2016.11.25-15.10.13:706][964]LogModuleManager: Shutting down and abandoning module MeshPaint (101)
+[2016.11.25-15.10.13:706][964]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (100)
+[2016.11.25-15.10.13:706][964]LogModuleManager: Shutting down and abandoning module HotReload (99)
+[2016.11.25-15.10.13:706][964]LogModuleManager: Shutting down and abandoning module MainFrame (98)
+[2016.11.25-15.10.13:706][964]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
+[2016.11.25-15.10.13:707][964]LogModuleManager: Shutting down and abandoning module ContentBrowser (96)
+[2016.11.25-15.10.13:707][964]LogModuleManager: Shutting down and abandoning module Paper2DEditor (95)
+[2016.11.25-15.10.13:707][964]LogModuleManager: Shutting down and abandoning module UdpMessaging (94)
+[2016.11.25-15.10.13:807][964]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (93)
+[2016.11.25-15.10.13:807][964]LogModuleManager: Shutting down and abandoning module Paper2D (92)
+[2016.11.25-15.10.13:807][964]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (91)
+[2016.11.25-15.10.13:807][964]LogModuleManager: Shutting down and abandoning module Media (90)
+[2016.11.25-15.10.13:807][964]LogModuleManager: Shutting down and abandoning module WmfMedia (89)
+[2016.11.25-15.10.13:807][964]LogModuleManager: Shutting down and abandoning module MediaAssets (88)
+[2016.11.25-15.10.13:807][964]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (87)
+[2016.11.25-15.10.13:807][964]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (86)
+[2016.11.25-15.10.13:807][964]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (85)
+[2016.11.25-15.10.13:807][964]LogModuleManager: Shutting down and abandoning module VREditor (84)
+[2016.11.25-15.10.13:807][964]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (83)
+[2016.11.25-15.10.13:807][964]LogModuleManager: Shutting down and abandoning module PropertyEditor (82)
+[2016.11.25-15.10.13:807][964]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (81)
+[2016.11.25-15.10.13:807][964]LogModuleManager: Shutting down and abandoning module FunctionalTesting (80)
+[2016.11.25-15.10.13:807][964]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (79)
+[2016.11.25-15.10.13:807][964]LogModuleManager: Shutting down and abandoning module Sequencer (78)
+[2016.11.25-15.10.13:807][964]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2016.11.25-15.10.13:807][964]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2016.11.25-15.10.13:807][964]LogModuleManager: Shutting down and abandoning module AssetTools (75)
+[2016.11.25-15.10.13:808][964]LogModuleManager: Shutting down and abandoning module UMGEditor (74)
+[2016.11.25-15.10.13:808][964]LogModuleManager: Shutting down and abandoning module UMG (73)
+[2016.11.25-15.10.13:808][964]LogModuleManager: Shutting down and abandoning module SlateReflector (72)
+[2016.11.25-15.10.13:808][964]LogModuleManager: Shutting down and abandoning module Slate (71)
+[2016.11.25-15.10.13:808][964]LogModuleManager: Shutting down and abandoning module EditorStyle (70)
+[2016.11.25-15.10.13:809][964]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (69)
+[2016.11.25-15.10.13:809][964]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (68)
+[2016.11.25-15.10.13:809][964]LogModuleManager: Shutting down and abandoning module XAudio2 (67)
+[2016.11.25-15.10.13:809][964]LogModuleManager: Shutting down and abandoning module Networking (65)
+[2016.11.25-15.10.13:809][964]LogModuleManager: Shutting down and abandoning module Core (64)
+[2016.11.25-15.10.13:809][964]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (63)
+[2016.11.25-15.10.13:810][964]LogModuleManager: Shutting down and abandoning module AssetRegistry (62)
+[2016.11.25-15.10.13:949][964]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2016.11.25-15.10.13:949][964]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2016.11.25-15.10.13:949][964]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2016.11.25-15.10.13:949][964]LogModuleManager: Shutting down and abandoning module DerivedDataCache (58)
+[2016.11.25-15.10.13:983][964]LogDerivedDataCache: Shutdown
+[2016.11.25-15.10.13:983][964]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (57)
+[2016.11.25-15.10.13:983][964]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2016.11.25-15.10.13:983][964]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2016.11.25-15.10.13:983][964]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2016.11.25-15.10.13:983][964]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2016.11.25-15.10.13:983][964]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2016.11.25-15.10.13:983][964]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2016.11.25-15.10.13:983][964]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2016.11.25-15.10.13:983][964]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2016.11.25-15.10.13:983][964]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2016.11.25-15.10.13:983][964]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2016.11.25-15.10.13:983][964]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2016.11.25-15.10.13:983][964]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2016.11.25-15.10.13:983][964]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2016.11.25-15.10.13:983][964]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2016.11.25-15.10.13:983][964]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2016.11.25-15.10.13:983][964]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2016.11.25-15.10.13:983][964]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2016.11.25-15.10.13:983][964]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.11.25-15.10.13:983][964]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.11.25-15.10.13:983][964]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.11.25-15.10.13:983][964]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.11.25-15.10.13:983][964]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.11.25-15.10.13:983][964]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.11.25-15.10.13:983][964]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.11.25-15.10.13:983][964]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.11.25-15.10.13:983][964]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.11.25-15.10.13:983][964]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.11.25-15.10.13:983][964]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.11.25-15.10.13:983][964]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.11.25-15.10.13:983][964]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.11.25-15.10.13:983][964]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.11.25-15.10.13:983][964]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.11.25-15.10.13:983][964]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.11.25-15.10.13:983][964]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.11.25-15.10.13:983][964]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.11.25-15.10.13:983][964]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.11.25-15.10.13:984][964]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.11.25-15.10.13:984][964]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.11.25-15.10.15:484][964]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.11.25-15.10.15:484][964]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.11.25-15.10.15:484][964]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.11.25-15.10.15:484][964]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.11.25-15.10.15:484][964]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.11.25-15.10.15:484][964]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.11.25-15.10.15:484][964]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.11.25-15.10.15:485][964]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.11.25-15.10.15:485][964]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.11.25-15.10.15:485][964]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.11.25-15.10.15:485][964]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.11.25-15.10.15:485][964]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.11.25-15.10.15:485][964]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.11.25-15.10.15:485][964]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.11.25-15.10.15:485][964]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.11.25-15.10.15:485][964]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.11.25-15.10.15:485][964]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.11.25-15.10.15:487][964]LogExit: Exiting.
+[2016.11.25-15.10.15:496][964]Log file closed, 11/26/16 02:10:15
